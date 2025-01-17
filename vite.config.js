@@ -9,4 +9,7 @@ export default defineConfig({
   preview: {
     port: 8080,
   },
+  css: {
+    devSourcemap: true,
+  },
 });
